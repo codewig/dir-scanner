@@ -1,0 +1,9 @@
+[package]
+name = "dir-scanner"
+version = "0.1.0"
+authors = ["ludwig <ludwig.beckert@outlook.de>"]
+edition = "2018"
+
+[dependencies]
+structopt = "0.3"
+
