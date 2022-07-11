@@ -1,4 +1,4 @@
-use std::{fs, io::{self, Write, BufReader}, };
+use std::{io::{BufReader}, };
 use std::fs::File;
 use std::io::BufRead;
 use std::path::Path;
@@ -11,11 +11,9 @@ use structopt::StructOpt;
 #[derive(StructOpt, Debug)]
 #[structopt(name = "dir-scanner", about = "Directory Scanner")]
 struct Cli {
-    // directory wordlist
     #[structopt(short="l", long="list")]
     list: String,
     #[structopt(short="u", long="url")]
-    // url
     url: String,
 }
 
