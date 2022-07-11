@@ -1,2 +1,2 @@
-# cargo-template-cli
-Cargo template for generating CLIs
+# Directory scanner
+Directory scanner written in rust
